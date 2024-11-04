@@ -1,0 +1,112 @@
+h1
+{
+  font-size: 32px;
+  color: rgb(190, 121, 16);
+  font-weight:lighter;
+  text-align:center;
+  display:block;
+}
+
+h2
+{
+  font-size: 24px;
+  color: rgb(190, 121, 16);
+  font-weight:lighter;
+  padding-left: 10pt;
+}
+
+h3
+{
+  font-size: 18px;
+  color: rgb(190, 121, 16);
+  font-weight:lighter;
+  padding-left: 20pt;
+}
+
+strong
+{
+    color: rgb(190, 121, 16);
+    font-weight:bold;
+}
+
+p
+{
+    padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+body
+{
+    color: white;
+    background-color: lightgray;
+}
+
+
+a
+{
+    color: lightgray;
+}
+
+a:visited
+{
+    color: rgb(160, 160, 160);
+}
+
+div {
+    width: 75%;
+    margin: auto;
+    background-color: rgb(77, 77, 77);
+    height: 95%;
+  }
+
+nav {
+  width: 75%;
+  margin: auto;
+  background-color: rgb(77, 77, 77);
+}
+
+#menu-vertical
+{
+  list-style-type: none;
+  position: fixed;
+  width: fit-content;
+  float: inline-start;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu {
+    float: left;
+    font-size: 24px;
+}
+
+.menu:hover {
+  background-color: rgb(67,67,67);
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10pt 20pt 10pt 20pt;
+}
+
+footer {
+  position:absolute;
+  right:20%;
+  bottom:10%;
+}
+
+.pp {
+  border-radius: 50%;
+  max-height: 250px;
+  max-width: 250px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
