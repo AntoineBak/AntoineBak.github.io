@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title> Mega Tic Tac Toe </title>
+
+</head>
+
+<body>
+
+<header>
+	<h1> Mega Tic Tac Toe </h1>
+
+    <p id="state"><span id="playerturn"><span class="blue">Blue</span></span> player's turn</p>
+</header>
+
+<nav>
+	<table>
+        <tr>
+            <td class="left top outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+            <td class="middle top outside"> 
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+            <td class="right top outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="left ground outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+            <td class="middle ground outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+            <td class="right ground outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="left bottom outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+            <td class="middle bottom outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+            <td class="right bottom outside">
+                <table>
+                    <tr>
+                        <td class="left top inside"> </td>
+                        <td class="middle top inside"> </td>
+                        <td class="right top inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left ground inside"> </td>
+                        <td class="middle ground inside"> </td>
+                        <td class="right ground inside"> </td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom inside"> </td>
+                        <td class="middle bottom inside"> </td>
+                        <td class="right bottom inside"> </td>
+                    </tr>
+                
+                </table>
+            </td>
+        </tr>
+    
+    </table>
+
+    <br>
+
+    <p><a href="./tictactoe.html">Reset</a> grid.
+        <br>
+    Get back to <a href="../index.html">Bak</a>.</p>
+
+</nav>
+
+
+<script src="script.js"></script>
+</body>
+</html>

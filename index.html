@@ -23,7 +23,27 @@
 	<div>
 		<br><br><br>
 		
-		<h1>Antoine Bak</h1>
+		<script type="text/javascript" >
+			// adds or removes the cedille to the a.
+			function changeA() {
+				var a_slot = document.getElementById("acedille");
+				var a_tictactoe = document.getElementById("linktictactoe");
+				
+				a_tictactoe.innerHTML = "a";
+
+				if(a_slot.innerHTML == "a") {
+					a_slot.innerHTML = "ą";
+				} else {
+					a_slot.innerHTML = "a";
+				}
+
+				if(Math.random()>0.9) {
+					a_tictactoe.innerHTML = '<a href="./tictactoe/tictactoe.html" class="hiddenlink">ą</a>';
+				}
+			}
+		</script>
+
+		<h1>Antoine B<span id="acedille" onclick="changeA()">a</span>k</h1>
 
 		<img class="pp" src="./pictures/profile.jpg" alt="profile">
 		
@@ -31,7 +51,7 @@
 		Since September 2024, I am a <strong>PhD. student</strong> at INRIA Paris under the supervision of 
 		<a href="https://www.paris.inria.fr/secret/Anne.Canteaut/">Anne Canteaut</a> and 
 		<a href="https://who.paris.inria.fr/Leo.Perrin/">Léo Perrin</a>. I am currently working on 
-		<strong>symmetric cryptology</strong> in the context of <em>arithmetization-oriented</em> primitives.
+		<strong>symmetric cryptology</strong> in the context of <em><span id="linktictactoe">a</span>rithmetization-oriented</em> primitives.
 		</p>
 
 		<h2>Contact</h2>

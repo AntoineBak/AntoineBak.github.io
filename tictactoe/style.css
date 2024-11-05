@@ -1,0 +1,98 @@
+h1
+{
+    font-family:"Trebuchet MS";
+}
+
+td
+{
+    text-align: center;
+}
+
+table
+{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.blue
+{
+    color: blue;
+    font-weight: bold;
+}
+
+.red
+{
+    color: red;
+    font-weight: bold;
+}
+
+.inside
+{
+    padding: 0;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    border-width:3px;
+    border-color: rgb(95, 95, 95);
+}
+
+.insideX
+{
+    background-image: url("images/x.png");
+}
+
+.insideO
+{
+    background-image: url("images/o.png");
+}
+
+.outside
+{
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    border-width: 9px;
+    border-color: black;
+}
+
+.outsideX
+{
+    background-image: url("images/bigX.png");
+}
+
+.outsideO
+{
+    background-image: url("images/bigO.png");
+}
+
+.left
+{
+    border-right-style: solid;
+}
+
+.middle
+{
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.right
+{
+    border-left-style: solid;
+}
+
+.top
+{
+    border-bottom-style: solid;
+}
+
+.ground
+{
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+.bottom
+{
+    border-top-style: solid;
+}

@@ -110,3 +110,13 @@ footer {
   width: 50%;
 }
 
+
+.hiddenlink {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.hiddenlink:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
